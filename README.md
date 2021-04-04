@@ -12,8 +12,11 @@ Data for the assit used in sentiment mining was taken from the https://www.kaggl
 Tables used are:
 1. Predvalue - This contains 4 columns. 
 		a. predvalueid : Primary key of the table.
+		
 		b. disease  : the name of various diseases/ conditions.
+		
 		c. drugname : the drug which can be used to cure a particular disease.
+		
 		d. predmean : the final predicted value which is used to rate the drugs.
 
 The data in this table comes after the model has run to predict the scores.
@@ -38,8 +41,11 @@ Follow the below steps to install the project and use it on your system:
 6.Create a virtual environment by the command mkvirtualenv myproject(only for pycharm).
 
 7.Install the below dependencies in the django virtual environment:
+   
    7.1 pip install numpy
+   
    7.2 pip install django-pandas
+   
    For any other queries refer https://pypi.org/project/django-pandas/.
    
 8.Open the project folder into pycharm.
